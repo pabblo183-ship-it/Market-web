@@ -1,0 +1,648 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/dc072b5446.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header-start -->
+    <header>
+
+        <!-- container-start -->
+        <div class="container">
+            <div class="row">
+
+                <!-- navbar-start -->
+                <div class="navbar">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">خانه </a></li>
+                            <li>
+                                <a href="#">محصولات </a>
+                                <!-- <ul class="mega-menu">
+                                    <!-- <li>
+                                        <h2>مردانه</h2>
+                                        <ul>
+                                           <li><a href="">کت وشلوار</a></li>
+                                           <li><a href="">لباس مجلسی</a></li>
+                                           <li><a href="">عینک های برند</a></li>
+                                           <li><a href="">عطر های محبوب</a></li>
+                                           <li><a href="">موزر</a></li> 
+                                        </ul>
+                                    </li> -->
+                                <!-- <li>
+                                        <h2>زنانه</h2>
+                                        <ul>
+                                            <li><a href="">لباس های مجلسی</a></li>
+                                            <li><a href="">ساعت های برند</a></li>
+                                            <li><a href="">عینک های لوکس</a></li>
+                                            <li><a href="">عطر های ناب</a></li>
+                                            <li><a href="">کیف مجلسی</a></li>
+                                        </ul>
+                                    </li> -->
+                                <!-- <li>
+                                        <h2>بچه گانه</h2>
+                                        <ul>
+                                            <li><a href="">لباس</a></li>
+                                            <li><a href="">اسباب بازی</a></li>
+                                            <li><a href="">ساعت</a></li>
+                                            <li><a href="">بهداشتی</a></li>
+                                            <li><a href="">کیف</a></li>
+                                        </ul>
+                                    </li> -->
+                                <!-- <li>
+                                        <img src="image/6.jpg" alt="#">
+                                    </li>
+                                </ul> -->
+                            </li>
+                            <li><a href="#">سبد خرید </a></li>
+                            <li><a href="#">اخرین مطالب</a></li>
+                            <li><a href="#"> درباره ما </a></li>
+                            <li><a href="#">تماس با ما </a></li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li><a href="#">یوتیوب</a></li>
+                            <li><a href="#">فیسبوک</a></li>
+                            <li><a href="#">اینساگرام</a></li>
+                            <li><a href="#">توییتر</a></li>
+                            <li>
+                                <a href="#">کاربران</a>
+                                <ul>
+                                    <li><a href="#">ثبت نام</a>
+                                        <a href="#">ورود</a>
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">سرچ</a></li>
+                        </ul>
+                        <button>درخواست محصول</button>
+                    </div>
+                </div>
+                <!-- navbar-end -->
+
+            </div>
+
+        </div>
+        <!-- container-end -->
+
+
+        <!-- ads-start -->
+        <div class="ads">
+            <div class="container">
+                <div class="row align-items">
+                    <div class="banner">
+                        <img src="image/nav-banner.png" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="image/logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ads-end -->
+
+    </header>
+    <!-- header-end -->
+
+
+    <!-- slider-start -->
+    <div class="slider">
+        <div class="slider-item">
+            <div class="item active">
+                <div class="img" style="background-image: url('image/10.jpg');">
+
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url('image/5.jpg');">
+
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url('image/7.jpg');">
+
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controlers">
+            <div class="prev"><button>prev</button></div>
+            <div class="next"><button>next</button></div>
+        </div>
+        <div class="progress"></div>
+
+    </div>
+    <!-- slider-end -->
+
+
+
+    <!-- main-satrt -->
+    <main id="main">
+
+        
+        <!-- article-start -->
+        <article id="content">
+            <div class="content-container">
+                <div class="dress">
+                    <div class="dress-item">
+                        <a href="">
+                            <img src="image/product/1.jpg" alt="">
+                            <h4>لباس مجلسی اول</h4>
+                            <p><span>120,000</span> تومان</p>
+                        </a>
+                    </div>
+                    <div class="dress-item">
+                        <a href="">
+                            <img src="image/product/2.jpg" alt="">
+                            <h4>لباس مجلسی دوم</h4>
+                            <p><span>120,000</span> تومان</p>
+                        </a>
+                    </div>
+                    <div class="dress-item">
+                        <a href="">
+                            <img src="image/product/3.jpg" alt="">
+                            <h4>لباس مجلسی سوم</h4>
+                            <p><span>120,000</span> تومان</p>
+                        </a>
+                    </div>
+                    <div class="dress-item">
+                        <a href="">
+                            <img src="image/product/4.jpg" alt="">
+                            <h4>لباس مجلسی چهارم</h4>
+                            <p><span>120,000</span> تومان</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="best-selling-men">
+                    <div class="header-title">
+                        <h2>پرفروش ترین مردانه</h2>
+                        <a href=""> مشاهده همه</a>
+                    </div>
+                    <div class="selling-men-product">
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/men/1.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/men/2.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">280,000</p>
+                                <p><span>210,000</span>تومان</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/men/3.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">420,000</p>
+                                <p><span>250,000</span>تومان</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/men/4.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">220,000</p>
+                                <p><span>120,000</span>تومان</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="cosmetic">
+                    <a href="">
+                        <h2>آرایشی و بهداشتی</h2>
+                        <img src="image/product/Cosmetics.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="best-selling-girl">
+                    <div class="header-title">
+                        <h2>پرفروش ترین زنانه</h2>
+                        <a href=""> مشاهده همه</a>
+                    </div>
+
+                    <div class="selling-girl-product">
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/girl/1.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/girl/2.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/girl/3.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/girl/4.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="top-brand">
+                    <div class="header-title">
+                        <h2>برترین برندها</h2>
+                        <a href=""> مشاهده همه</a>
+                    </div>
+                    <div class="row align-items">
+                        <div class="brand-item">
+                            <img src="image/product/brands/1.jpg" alt="">
+                        </div>
+                        <div class="brand-item">
+                            <img src="image/product/brands/2.png" alt="">
+                        </div>
+                        <div class="brand-item">
+                            <img src="image/product/brands/3.jpg" alt="">
+                        </div>
+                        <div class="brand-item">
+                            <img src="image/product/brands/4.png" alt="">
+                        </div>
+                        <div class="brand-item">
+                            <img src="image/product/brands/5.png" alt="">
+                        </div>
+                        <div class="brand-item">
+                            <img src="image/product/brands/6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="best-selling-child">
+                    <div class="header-title">
+                        <h3>پرفروش ترین بچه گانه</h3>
+                        <a href=""> مشاهده همه</a>
+                    </div>
+                    <div class="selling-child-product">
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/child/1.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/child/2.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/child/3.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div class="selling-item">
+                                <img src="image/product/child/4.jpg" alt="">
+                                <h3>پیراهن مشکی</h3>
+                                <p class="price-item">320,000</p>
+                                <p><span>280,000</span>تومان</p>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </article>
+        <!-- article-end -->
+
+
+        <!-- sidebar-start -->
+        <aside id="sidebar">
+            <div class="sidebar-container">
+                <div class="last-product">
+                    <div class="sidebar-title">
+                        <h4>آخرین محصولات</h4>
+                    </div>
+                    <div class="row align-items">
+                        <div class="last-product-item">
+                            <a href="">
+                                <img src="image/product/shoe/1.jpg" alt="">
+                                <h5>کفش اول</h5>
+                            </a>
+                        </div>
+                        <div class="last-product-item">
+                            <a href="">
+                                <img src="image/product/shoe/2.jpg" alt="">
+                                <h5>کفش دوم</h5>
+                            </a>
+                        </div>
+                        <div class="last-product-item">
+                            <a href="">
+                                <img src="image/product/shoe/3.jpg" alt="">
+                                <h5>کفش سوم</h5>
+                            </a>
+                        </div>
+                        <div class="last-product-item">
+                            <a href="">
+                                <img src="image/product/shoe/4.jpg" alt="">
+                                <h5>کفش چهارم</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-bestseller">
+                    <div class="sidebar-title">
+                        <h4>محصولات پرفروش اخیر</h4>
+                    </div>
+                    <div class="row align-items">
+                        <div class="recent-item">
+                            <a href="">
+                                <img src="image/product/bestsellers/1.jpg" alt="">
+                                <h5>محصول اول</h5>
+                            </a>
+                        </div>
+                        <div class="recent-item">
+                            <a href="">
+                                <img src="image/product/bestsellers/2.jpg" alt="">
+                                <h5>محصول دوم</h5>
+                            </a>
+                        </div>
+                        <div class="recent-item">
+                            <a href="">
+                                <img src="image/product/bestsellers/3.jpg" alt="">
+                                <h5>محصول سوم</h5>
+                            </a>
+                        </div>
+                        <div class="recent-item">
+                            <a href="">
+                                <img src="image/product/bestsellers/4.jpg" alt="">
+                                <h5>محصول چهارم</h5>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="laptop">
+                    <div class="sidebar-title">
+                        <h4>لپ تاب</h4>
+                    </div>
+                    <div class="row align-items">
+                        <div class="laptop-item">
+                            <a href="">
+                                <img src="image/product/laptop/1.jpg" alt="">
+                                <h5>لپ تاب اول</h5>
+                            </a>
+                        </div>
+                        <div class="laptop-item">
+                            <a href="">
+                                <img src="image/product/laptop/2.jpg" alt="">
+                                <h5>لپ تاب دوم</h5>
+                            </a>
+                        </div>
+                        <div class="laptop-item">
+                            <a href="">
+                                <img src="image/product/laptop/3.jpg" alt="">
+                                <h5>لپ تاب سوم</h5>
+                            </a>
+                        </div>
+                        <div class="laptop-item">
+                            <a href="">
+                                <img src="image/product/laptop/4.jpg" alt="">
+                                <h5>لپ تاب چهارم</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-ads">
+                    <img src="image/product/banner-ads.jpg" alt="">
+                </div>
+
+            </div>
+        </aside>
+        <!-- sidebar-end -->
+
+
+    </main>
+    <!-- main-end -->
+
+
+    <!-- suggested-start -->
+    <section class="suggested">
+        <div class="container">
+            <div class="row">
+                <h1 class="suggested-title">تخفیف های فوق العاده</h1>
+                <div class="suggested-product">
+                    <div class="suggested-product-item">
+                        <a href="">
+                            <span class="offer">تخفیف امروز</span>
+                            <img src="image/product/suggest/1.jpg" alt="">
+                            <div>
+                                <h3>تیشرت مردانه</h3>
+                                <span>85,000</span>
+                            </div>
+                            <h4><span>45,000</span>تومان</h4>
+                        </a>
+                    </div>
+                    <div class="suggested-product-item">
+                        <a href="">
+                            <span class="offer">تخفیف امروز</span>
+                            <img src="image/product/suggest/2.jpg" alt="">
+                            <div>
+                                <h3>ساعت</h3>
+                                <span>160,000</span>
+                            </div>
+                            <h4><span>90,000</span>تومان</h4>
+                        </a>
+                    </div>
+                    <div class="suggested-product-item">
+                        <a href="">
+                            <span class="offer">تخفیف امروز</span>
+                            <img src="image/product/suggest/3.jpg" alt="">
+                            <div>
+                                <h3>هدفون</h3>
+                                <span>200,000</span>
+                            </div>
+                            <h4><span>188,000</span>تومان</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- suggested-end -->
+
+
+    <!-- favorite-start -->
+    <section class="favorite">
+        <div class="container">
+            <div class="row">
+                <div class="favorite-content">
+                    <div class="favorite-item">
+                        <a href="">
+                            <img src="image/slideshow/1.jpg" alt="">
+                            <div class="eye-heart">
+                                <h3>
+                                    <i class="fas fa-eye"></i>
+                                    <span>120,000</span>
+                                    بازدید
+                                </h3>
+                                <h3>
+                                    <i class="fas fa-heart"></i>
+                                    <span>85</span>
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="favorite-item">
+                        <a href="">
+                            <img src="image/slideshow/2.jpg" alt="">
+                            <div class="eye-heart">
+                                <h3>
+                                    <i class="fas fa-eye"></i>
+                                    <span>120,000</span>
+                                    بازدید
+                                </h3>
+                                <h3>
+                                    <i class="fas fa-heart"></i>
+                                    <span>85</span>
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="favorite-title">
+                    <h1>محبوب ترین محصولات</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- favorite-end -->
+
+    
+    <!-- footer-start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content">
+                <div class="footer-about">
+                    <h3>درباره ما</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی 
+                        تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                         ابزارهای کاربردی می باشد.
+                        کتابهای زیادی در شصت و سه درصد گذشته</p>
+                </div>
+                <div class="footer-social">
+                    <h3>دنبال کنید</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-news-letter">
+                    <h3>دریافت آخرین اخبار</h3>
+                    <form action="">
+                        <input type="text" placeholder="ایمیل خود را وارد کنید...">
+                        <button>عضویت</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row mt-2 border pt-2 justify-content">
+                <div class="footer-customer-service">
+                    <h3>خدمات مشتریان</h3>
+                    <ul>
+                        <li><a href="">پرسش های متداول</a></li>
+                        <li><a href="">حریم خصوصی</a></li>
+                        <li><a href="">گارانتی بازگشت وجه</a></li>
+                        <li><a href="">شرایت استفاده</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-quick-access">
+                    <h3>دسترسی سریع</h3>
+                    <ul>
+                        <li><a href="">خانه</a></li>
+                        <li><a href="">درباره ما</a></li>
+                        <li><a href="">تماس با ما</a></li>
+                        <li><a href="">فروش در تاپ لرن</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-license">
+                    <div class="information">
+                        <h4>شیراز سمت راست طبقه چهارم پلاک 16</h4>
+                        <h4>toplearn@gmail.com</h4>
+                    </div>
+                    <div class="license">
+                        <img src="image/f1.png" alt="">
+                        <img src="image/f2.png" alt="">
+                        <img src="image/f3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-logo">
+                    <img src="image/logo.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer-end -->
+
+    <script src="js/javascript.js"></script>
+
+</body>
+
+</html>
